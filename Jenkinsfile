@@ -2,6 +2,12 @@ pipeline {
     agent any
 
     stages {
+        agent {
+            docker {
+                image 'docker:27.1-dind'
+                args '-v /var/run/docker.sock:/var/run/docker.sock --privileged'
+            }
+        }
 
         stage('Checkout') {
             steps {
