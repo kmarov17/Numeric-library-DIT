@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/kmarov17/Numeric-library-DIT.git'
+                git branch: 'main', url: 'https://github.com/kmarov17/Numeric-library-DIT.git'
             }
         }
 
