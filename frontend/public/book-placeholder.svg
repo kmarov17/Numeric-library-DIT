@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" role="img" aria-labelledby="title">
+  <title id="title">Placeholder couverture livre</title>
+  <rect width="360" height="360" fill="#f4f4f4"/>
+  <rect x="82" y="78" width="186" height="180" fill="none" stroke="#4d4d4d" stroke-width="8"/>
+  <circle cx="144" cy="122" r="13" fill="#555"/>
+  <path d="M96 208v-38l30-31 42 49 42-72 54 82v10H96z" fill="#555"/>
+  <rect x="82" y="254" width="186" height="74" fill="#555"/>
+</svg>

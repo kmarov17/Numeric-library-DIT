@@ -1,0 +1,12 @@
+---
+
+variables:
+  APP_NAME: 
+  IMAGE_NAME: ${APP_NAME}-image
+  DEPLOYMENT_NAME: ${APP_NAME}-deploy
+  TARGET_REPO: gitlab.todoustudio.cloud/...
+  TAGGED_IMAGE: ${REGISTRY_HOST}/${REGISTRY_PROJECT_NAME}/${IMAGE_NAME}
+
+include:
+  - project: 'ci-deployment-files/apps-deployment'
+    file: '/.gitlab-ci.yml'
